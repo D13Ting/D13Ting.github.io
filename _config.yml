@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: 資訊人才培育計畫
 subtitle:
-description: hehe
-author: Daniel Ting
+description: 光是弄好github pages跟Jekyll就累了，文章之後再更新吧...
+author: D13
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-tw
 date_format: '%Y-%m-%d'
