@@ -8,7 +8,8 @@ tags:
 - Wireshark
 - traffic analysis
 ---
-這次練習的[題目](https://www.notion.so/picoCTF-Wireshark-doo-dooo-do-doo-0cfd084c14974df6a65f5b403ac4f5b6?pvs=21)只給了一包Pcap檔，把它丟進[WireShark](https://www.wireshark.org/)看看。大部分都是 TCP 跟 HTTP 協定的封包來回，先使用分析工具(Analyze→Follow→TCP Stream)查看一下傳送的內容。
+剛考過CEH，接下來決定多練習CTF增進滲透的實作能力！目前打算先從[picoCTF](https://picoctf.org/)開始。
+這次練習的[題目](https://play.picoctf.org/practice/challenge/115)只給了一包Pcap檔，把它丟進[WireShark](https://www.wireshark.org/)看看。大部分都是 TCP 跟 HTTP 協定的封包來回，先使用分析工具(Analyze→Follow→TCP Stream)查看一下傳送的內容。
 
 >💡 Follow Stream 的功能可以依序追蹤封包所傳送的內容，將有關聯性的封包合併呈現，使用者可以更方便解讀封包的內容訊息
 
