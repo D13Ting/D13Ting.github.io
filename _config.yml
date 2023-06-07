@@ -4,9 +4,9 @@
 # ---------------------------------------------------------------
 
 # Site
-title: 資訊人才培育計畫
+title: Hacker Note
 subtitle:
-description: 光是弄好github pages跟Jekyll就累了，文章之後再更新吧...
+description: 剛考過CEH~接下來決定先把picoCTF練完，順便記錄一下
 author: D13
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-tw

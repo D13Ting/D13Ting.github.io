@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-01T13:57:52+08:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">NexT</title><subtitle>hehe</subtitle><author><name>Daniel Ting</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-07T15:43:21+08:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Hacker Note</title><subtitle>剛考過CEH~接下來決定先把picoCTF練完，順便記錄一下</subtitle><author><name>D13</name></author><entry><title type="html">picoCTF - Wireshark doo dooo do doo…</title><link href="http://localhost:4000/picoctf/2023/06/06/picoCTF-Wireshark-doo-dooo-do-doo/" rel="alternate" type="text/html" title="picoCTF - Wireshark doo dooo do doo..." /><published>2023-06-06T22:35:00+08:00</published><updated>2023-06-06T22:35:00+08:00</updated><id>http://localhost:4000/picoctf/2023/06/06/picoCTF%20-%20Wireshark%20doo%20dooo%20do%20doo</id><content type="html" xml:base="http://localhost:4000/picoctf/2023/06/06/picoCTF-Wireshark-doo-dooo-do-doo/">&lt;p&gt;這次練習的&lt;a href=&quot;https://www.notion.so/picoCTF-Wireshark-doo-dooo-do-doo-0cfd084c14974df6a65f5b403ac4f5b6?pvs=21&quot;&gt;題目&lt;/a&gt;只給了一包Pcap檔，把它丟進&lt;a href=&quot;https://www.wireshark.org/&quot;&gt;WireShark&lt;/a&gt;看看。大部分都是 TCP 跟 HTTP 協定的封包來回，先使用分析工具(Analyze→Follow→TCP Stream)查看一下傳送的內容。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;💡 Follow Stream 的功能可以依序追蹤封包所傳送的內容，將有關聯性的封包合併呈現，使用者可以更方便解讀封包的內容訊息&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post/20230607_wireshark1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;隨意檢查一下，在第五個TCP Stream看到一組GET Method，Response中也有回傳一串亂碼：&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Gur synt vf cvpbPGS{c33xno00_1_f33_h_qrnqorrs}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post/20230607_wireshark2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;pico的flag格式就是：&lt;code class=&quot;highlighter-rouge&quot;&gt;picoCTF{flag}&lt;/code&gt;，所以可以猜測這串亂碼可能是flag，而且是用無法轉換大括號的方式加密，再來注意到亂碼cvpb的c對應到明碼pico的p；而p則是對應到c，那應該是透過替換式加密法 ROT13 加密&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post/20230607_rot13.png&quot; alt=&quot;&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;使用&lt;a href=&quot;https://gchq.github.io/CyberChef/&quot;&gt;加解密工具&lt;/a&gt;就可以看到flag了
+&lt;code class=&quot;highlighter-rouge&quot;&gt;picoCTF{p33kab00_1_s33_u_deadbeef}&lt;/code&gt;&lt;/p&gt;</content><author><name>D13</name></author><category term="CTF" /><category term="Wireshark" /><category term="traffic analysis" /><summary type="html">這次練習的題目只給了一包Pcap檔，把它丟進WireShark看看。大部分都是 TCP 跟 HTTP 協定的封包來回，先使用分析工具(Analyze→Follow→TCP Stream)查看一下傳送的內容。</summary></entry></feed>
