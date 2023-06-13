@@ -1,5 +1,5 @@
 ---
-title: \[解題\] picoCTF - Wireshark twoo twooo two twoo...
+title: picoCTF - Wireshark twoo twooo two twoo...
 date: 2023-06-12 15:11:00
 categories: 
 - picoCTF
@@ -22,22 +22,22 @@ tags:
 
 ---
 
-**TCP stream: 6
-Response:** `picoCTF{bfe48e8500c454d647c55a4471985e776a07b26cba64526713f43758599aa98b}`
+**TCP stream: 6**
+**Response:** `picoCTF{bfe48e8500c454d647c55a4471985e776a07b26cba64526713f43758599aa98b}`
 
 立馬拿去提交，結果不對…那就繼續吧
 
 ---
 
-**TCP stream: 11
-Response:** `picoCTF{bda69bdf8f570a9aaab0e4108a0fa5f64cb26ba7d2269bb63f68af5d98b98245}`
+**TCP stream: 11**
+**Response:** `picoCTF{bda69bdf8f570a9aaab0e4108a0fa5f64cb26ba7d2269bb63f68af5d98b98245}`
 
 抱持著什麼都要試試看的精神，還是錯…
 
 ---
 
-**TCP stream: 19
-Response:**
+**TCP stream: 19**
+**Response:**
 `picoCTF{fe83bcb6cfd43d3b79392f6a4232685f6ed4e7a789c2ce559cf3c1ab6adbe34b}`
 當然也不是，後面還有很多組flag，但試了幾組都不是。也亂試了一下解碼，沒有成功。
 看來不是這條路，果斷放棄。
@@ -50,7 +50,7 @@ Response:**
 
 ![](/assets/images/post/20230613_wireshark1.png)
 
-TCP檢查過了，再來看看第二多的DNS好了。DNS的info立刻看到不尋常的資訊，每次訪問DNS的網域前面都代了一串亂碼，我決定將DNS的Info匯出看看有沒有什麼線索
+TCP檢查過了，再來看看第二多的DNS好了。DNS的info立刻看到不尋常的資訊，每次訪問DNS的網域前面都代了一串亂碼，我決定將DNS的Info匯出看看有沒有什麼線索。
 
 ![](/assets/images/post/20230613_wireshark2.png)
 
@@ -85,4 +85,5 @@ $ΐ
 ```
 
 篩選出比較有可能的答案後組合起來（多試幾次），flag就拿到啦～
+
 `picoCTF{dns_3xf1l_ftw_deadbeef}`
