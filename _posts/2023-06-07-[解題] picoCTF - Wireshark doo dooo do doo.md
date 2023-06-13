@@ -1,5 +1,5 @@
 ---
-title: [解題] picoCTF - Wireshark doo dooo do doo...
+title: picoCTF - Wireshark doo dooo do doo...
 date: 2023-06-06 14:35:00
 categories: 
 - picoCTF

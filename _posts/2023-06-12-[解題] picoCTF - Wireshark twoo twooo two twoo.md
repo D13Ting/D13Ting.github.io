@@ -1,5 +1,5 @@
 ---
-title: [解題] picoCTF - Wireshark twoo twooo two twoo...
+title: \[解題\] picoCTF - Wireshark twoo twooo two twoo...
 date: 2023-06-12 15:11:00
 categories: 
 - picoCTF
