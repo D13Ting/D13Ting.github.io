@@ -16,29 +16,41 @@ tags:
 老規矩，先從Follow TCP stream來看看封包內容
 
 **TCP stream: 5** 
-**Response:** The official Red's Shrimp and Herring website is still under construction. Please check back later!
+
+**Response:** 
+
+The official Red's Shrimp and Herring website is still under construction. Please check back later!
 
 不知道在說什麼，先留著
 
 ---
 
 **TCP stream: 6**
-**Response:** `picoCTF{bfe48e8500c454d647c55a4471985e776a07b26cba64526713f43758599aa98b}`
+
+**Response:** 
+
+`picoCTF{bfe48e8500c454d647c55a4471985e776a07b26cba64526713f43758599aa98b}`
 
 立馬拿去提交，結果不對…那就繼續吧
 
 ---
 
 **TCP stream: 11**
-**Response:** `picoCTF{bda69bdf8f570a9aaab0e4108a0fa5f64cb26ba7d2269bb63f68af5d98b98245}`
+
+**Response:** 
+
+`picoCTF{bda69bdf8f570a9aaab0e4108a0fa5f64cb26ba7d2269bb63f68af5d98b98245}`
 
 抱持著什麼都要試試看的精神，還是錯…
 
 ---
 
 **TCP stream: 19**
+
 **Response:**
+
 `picoCTF{fe83bcb6cfd43d3b79392f6a4232685f6ed4e7a789c2ce559cf3c1ab6adbe34b}`
+
 當然也不是，後面還有很多組flag，但試了幾組都不是。也亂試了一下解碼，沒有成功。
 看來不是這條路，果斷放棄。
 
