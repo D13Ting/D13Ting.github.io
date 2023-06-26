@@ -6,7 +6,7 @@ Download this image file and find the flag.
 
 - [Download image file](https://artifacts.picoctf.net/c/100/drawing.flag.svg)
 
-# **Solution**
+# Solution
 
 下載後為一個svg，先點開來看看
 

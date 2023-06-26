@@ -4,7 +4,7 @@
 
 Every file gets a flag.The SOC analyst saw one image been sent back and forth between two people. They decided to investigate and found out that there was more than what meets the eye [here](https://artifacts.picoctf.net/c/259/flag.png).
 
-# **Solution**
+# Solution
 
 一開始給的是一張圖片.png，用[HexEd.it](https://hexed.it/)打開來看看，先搜尋.png的結尾IEND，找到在那之後還有PK（通常是壓縮檔的意思）。
 

@@ -9,7 +9,7 @@ Find the flag in this [picture](https://jupiter.challenges.picoctf.org/static/9
 1. What does meta mean in the context of files?
 2. Ever heard of metadata?
 
-# **Solution**
+# Solution
 
 題目給的是一張圖片，圖片上沒有什麼資訊
 
