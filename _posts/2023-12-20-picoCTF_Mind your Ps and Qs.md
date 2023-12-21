@@ -9,15 +9,11 @@ author: d13
 tags: [ctf, cryptography, picoctf]
 ---
 
-# Description
+# Question
 
-In RSA, a small `e` value can be problematic, but what about `N`? Can you decrypt this? [values](https://mercury.picoctf.net/static/3cfeb09681369c26e3f19d886bc1e5d9/values)
+https://play.picoctf.org/practice/challenge/162
 
-# Hints
-
-Bits are expensive, I used only a little bit over 100 to save money
-
-# **Solution**
+# Solution
 
 ```
 Decrypt my super sick RSA:

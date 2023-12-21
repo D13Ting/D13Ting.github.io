@@ -9,15 +9,11 @@ author: d13
 tags: [ctf, cryptography, picoctf]
 ---
 
-# Description
+# Question
 
-The [numbers](https://jupiter.challenges.picoctf.org/static/f209a32253affb6f547a585649ba4fda/the_numbers.png)... what do they mean?
+https://play.picoctf.org/practice/challenge/68
 
-# Hints
-
-The flag is in the format PICOCTF{}
-
-# **Solution**
+# Solution
 
 ![](/assets/img/The%20Numbers.png)
 

@@ -9,15 +9,11 @@ author: d13
 tags: [ctf, cryptography, picoctf]
 ---
 
-# Description
+# Question
 
-Decrypt this [message](https://jupiter.challenges.picoctf.org/static/7d707a443e95054dc4cf30b1d9522ef0/ciphertext).
+https://play.picoctf.org/practice/challenge/64
 
-# Hints
-
-caesar cipher [tutorial](https://learncryptography.com/classical-encryption/caesar-cipher)
-
-# **Solution**
+# Solution
 
 教學文都給你了！只要照做即可！最多嘗試25次！
 
