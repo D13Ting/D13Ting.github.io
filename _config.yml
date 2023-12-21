@@ -16,7 +16,7 @@ timezone: Asia/Taipei
 
 title: D13's Note # the main title
 
-tagline: SGVsbG8gV29ybGQ= # it will display as the sub-title
+tagline:  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   for note.
