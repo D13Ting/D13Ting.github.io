@@ -11,7 +11,7 @@ tags: [ctf, web exploitation, picoctf]
 
 # Question
 
-(https://play.picoctf.org/practice/challenge/152)
+[https://play.picoctf.org/practice/challenge/152](https://play.picoctf.org/practice/challenge/152)
 
 # Solution
 
