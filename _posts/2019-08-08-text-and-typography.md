@@ -1,12 +1,13 @@
 ---
-title: Text and Typography
+layout: post
+title:  "picoCTF - la cifra de"
+description: 
+date:   2023-12-20 15:58:00 +0800
+# last_modified_at:
+categories: [CTF, picoCTF-Cryptography]
 author: d13
-date: 2019-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
-tags: [typography]
-
+tags: [ctf, cryptography, picoctf]
 ---
-
 This post is to show Markdown syntax rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing. Now, let's start looking at text and typography.
 
 ## Headings
@@ -73,11 +74,3 @@ Moon
 
 > An example showing the `danger` type prompt.
 {: .prompt-danger }
-
-## Tables
-
-| Company                      | Contact          | Country |
-|:-----------------------------|:-----------------|--------:|
-| Alfreds Futterkiste          | Maria Anders     | Germany |
-| Island Trading               | Helen Bennett    | UK      |
-| Magazzini Alimentari Riuniti | Giovanni Rovelli | Italy   |
