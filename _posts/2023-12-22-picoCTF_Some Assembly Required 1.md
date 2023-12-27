@@ -9,11 +9,11 @@ author: d13
 tags: [ctf, web exploitation, picoctf]
 ---
 
-# Question
+## Question
 
 [https://play.picoctf.org/practice/challenge/152](https://play.picoctf.org/practice/challenge/152)
 
-# Solution
+## Solution
 
 題目沒有給任何提示，連上去網站後有一個input可以輸入，試過一些組合。都沒用 🥲
 
@@ -153,6 +153,6 @@ const getVal = function(index, nothing) {
 
 （原本想繼續解析`JIFxzHyW8W`裡的內容的但WebAssembly實在還不會…未來有機會再來補上）
 
-# Flag
+## Flag
 
 picoCTF{a2843c6ba4157dc1bc052818a6242c3f}

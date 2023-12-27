@@ -9,11 +9,11 @@ author: d13
 tags: [ctf, cryptography, picoctf]
 ---
 
-# Question
+## Question
 
 https://play.picoctf.org/practice/challenge/162
 
-# Solution
+## Solution
 
 ```
 Decrypt my super sick RSA:
@@ -46,6 +46,6 @@ m = pow(c, d, N)
 print(long_to_bytes(m))
 ```
 
-# Flag
+## Flag
 
 picoCTF{sma11_N_n0_g0od_45369387}

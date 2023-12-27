@@ -9,14 +9,14 @@ author: d13
 tags: [ctf, cryptography, picoctf]
 ---
 
-# Question
+## Question
 
 https://play.picoctf.org/practice/challenge/64
 
-# Solution
+## Solution
 
 教學文都給你了！只要照做即可！最多嘗試25次！
 
-# Flag
+## Flag
 
 picoCTF{crossingtherubicondjneoach}

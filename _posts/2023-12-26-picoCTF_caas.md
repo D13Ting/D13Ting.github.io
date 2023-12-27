@@ -9,11 +9,11 @@ author: d13
 tags: [ctf, web exploitation, picoctf]
 ---
 
-# Question
+## Question
 
 [https://caas.mars.picoctf.net/cowsay/Hello%20World](https://caas.mars.picoctf.net/cowsay/Hello%20World)
 
-# Solution
+## Solution
 
 下載下來的js就是這個網站的服務呼叫方式，簡單來說就是呼叫他的api配上參數，會幫你印出一隻講出你參數的牛。
 
@@ -32,7 +32,7 @@ tags: [ctf, web exploitation, picoctf]
 `https://caas.mars.picoctf.net/cowsay/test;ls`
 `https://caas.mars.picoctf.net/cowsay/test;cat%20falg.txt`
 
-# Flag
+## Flag
 
 picoCTF{moooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo0o}
 
