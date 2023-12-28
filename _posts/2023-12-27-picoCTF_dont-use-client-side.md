@@ -2,7 +2,7 @@
 layout: post
 title:  "picoCTF - dont-use-client-side"
 description: 
-date:   2023-12-22 11:10:00 +0800
+date:   2023-12-27 11:10:00 +0800
 # last_modified_at:
 categories: [CTF, picoCTF-Web Exploitation]
 author: d13
