@@ -17,7 +17,7 @@ tags: [ctf, web exploitation, picoctf]
 
 進來就是一個網頁，其實題目給的提示太明顯了，就是要我們找robots.txt這個檔案。
 
-> The posts' _layout_ has been set to `post` by default, so there is no need to add the variable _layout_ in the Front Matter block.
+> robots.txt是一個存在網站根目錄下的檔案，搜尋引擎跟爬蟲機器人會自動略過robot.txt所記錄的位置。
 {: .prompt-tip }
 
 ![](/assets/img/wherearetherobots_1.png)
