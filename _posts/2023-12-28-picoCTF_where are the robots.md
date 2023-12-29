@@ -30,6 +30,6 @@ tags: [ctf, web exploitation, picoctf]
 
 ![](/assets/img/wherearetherobots_3.png)
 
-# Flag
+## Flag
 
 picoCTF{ca1cu1at1ng_Mach1n3s_1bb4c}

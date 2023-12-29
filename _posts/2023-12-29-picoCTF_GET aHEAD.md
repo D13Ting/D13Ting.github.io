@@ -37,6 +37,6 @@ tags: [ctf, web exploitation, picoctf]
 | HEAD | 取得response的標頭 |
 | CONNECT | 建立連結隧道 |
 
-# Flag
+## Flag
 
 picoCTF{r3j3ct_th3_du4l1ty_2e5ba39f}
