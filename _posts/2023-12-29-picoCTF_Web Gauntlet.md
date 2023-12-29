@@ -20,7 +20,11 @@ tags: [ctf, web exploitation, picoctf]
 
 以下附上我每題的input，通通都是加在username那一欄，password隨便打：
 
-
+1. a
+2. b
+3. c
+4. d
+5. e
 
 # Flag
 
