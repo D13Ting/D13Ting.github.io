@@ -2,7 +2,7 @@
 layout: post
 title:  "picoCTF - Web Gauntlet"
 description: 
-date:   2023-12-22 11:10:00 +0800
+date:   2023-12-29 10:10:00 +0800
 # last_modified_at:
 categories: [CTF, picoCTF-Web Exploitation]
 author: d13
@@ -20,11 +20,7 @@ tags: [ctf, web exploitation, picoctf]
 
 以下附上我每題的input，通通都是加在username那一欄，password隨便打：
 
-1. `admin';--`
-2. `admin';0x2d2d`
-3. `admin';0x2d2d`
-4. `ad'||'min';0x2d2d`
-5. `ad'||'min';0x2d2d`
+
 
 # Flag
 
