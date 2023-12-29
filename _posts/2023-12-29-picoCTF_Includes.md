@@ -2,7 +2,7 @@
 layout: post
 title:  "picoCTF - Local Authority"
 description: 
-date:   2023-12-29 13:10:00 +0800
+date:   2023-12-29 13:06:00 +0800
 # last_modified_at:
 categories: [CTF, picoCTF-Web Exploitation]
 author: d13
