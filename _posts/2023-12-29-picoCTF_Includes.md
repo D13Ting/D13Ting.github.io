@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title:  "picoCTF - Local Authority"
 description: 
@@ -18,6 +18,7 @@ tags: [ctf, web exploitation, picoctf]
 網頁的原始碼：
 
 ```
+
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -42,6 +43,7 @@ tags: [ctf, web exploitation, picoctf]
     <button type="button" onclick="greetings();">Say hello</button>
   </body>
 </html>
+
 ```
 
 網站上簡單說明include是什麼東西，給了很大的提示，在這個網頁中include了`style.css`跟`script.js`兩支程式，都點開來看註解就可以找到答案了
