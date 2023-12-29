@@ -19,16 +19,16 @@ tags: [ctf, web exploitation, picoctf]
 
 ```
 
-<html lang="en">
+<html lang='en'>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <link rel="stylesheet" href='style.css'>
     <title>On Includes</title>
   </head>
   <body>
-    <script src="script.js"></script>
+    <script src='script.js'></script>
   
     <h1>On Includes</h1>
     <p>Many programming languages and other computer files have a directive, 
@@ -40,7 +40,7 @@ tags: [ctf, web exploitation, picoctf]
        of code.</p>
     <br>
     <p> Source: Wikipedia on Include directive </p>
-    <button type="button" onclick="greetings();">Say hello</button>
+    <button type='button' onclick='greetings();'>Say hello</button>
   </body>
 </html>
 
