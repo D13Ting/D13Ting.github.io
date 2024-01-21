@@ -9,8 +9,6 @@ author: d13
 tags: [http header, XSS, web security]
 ---
 
-# ***\*Content-Security-Policy 介紹\****
-
 內容安全政策（Content Security Policy，簡稱CSP）是一種安全標準，主要是防止XSS、clickjacking之類的攻擊。大部分的瀏覽器都支援這一套標準。CSP可以直接加在前端網頁上，也可以透過網站伺服器去設置。
 
 ## CSP的功能
