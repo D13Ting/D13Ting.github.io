@@ -87,35 +87,42 @@ tags: [http header, XSS, web security]
 
 推薦以下兩款線上工具，可以幫助開發者確認自己的CSP政策是否完善：
 
-1. https://csp-evaluator.withgoogle.com/
-2. https://securityheaders.com/
+
+
+1. Google推出的，可以幫你檢查CSP指令是否安全
+
+   [https://csp-evaluator.withgoogle.com/](https://csp-evaluator.withgoogle.com/)
+
+2. 將欲檢測的網址丟上去就會幫你是否有漏掉哪些header（注意這會成為公開資訊）
+
+   [https://securityheaders.com/](https://securityheaders.com/)
 
 ## Demo
 
 我找了一個GitHub上的XSS範例網站https://github.com/bgres/xss-demo架設在IIS上。在這個網站的Search query欄位輸入資料並送出，便會將輸入顯示在網頁上，這邊我輸入了一個test：
 
-![Untitled](/assets/img/Content-Security-Policy_1.png)
+![](/assets/img/Content-Security-Policy_1.png)
 
 那如果輸入`<script>alert(1)</script>`便可以觸發彈跳視窗：
 
-![Untitled](/assets/img/Content-Security-Policy_2.png)
+![](/assets/img/Content-Security-Policy_2.png)
 
 若要阻擋XSS，最基本的就是要針對輸入輸出做驗證與過濾。但若開發設計一開始沒有規劃好，或是流程太衝促，時常會有忘記做檢查的狀況。這種時候其實就可以將CSP加入至伺服器的response標頭，瀏覽器在接受後就會自動啟動防護的功能了。現在我在我的IIS伺服器上加入`Content-Security-Policy default-src 'self'`，上面有提到，一旦啟動CSP後，預設是無法執行html內的JS的，所以今天一樣的輸入便不會觸發JS的執行：
 
-![IIS HTTP回應標頭設定](/assets/img/Content-Security-Policy_3.png)
+![](/assets/img/Content-Security-Policy_3.png)
 
 IIS HTTP回應標頭設定
 
-![Untitled](/assets/img/Content-Security-Policy_4.png)
+![](/assets/img/Content-Security-Policy_4.png)
 
 在開發者工具中，會提到有一段inline script被阻擋了，也會給予開發者CSP的政策設計建議幫助開發人員開啟必要的功能。未來有機會再補上其他政策的實作範例。
 
 ## 參考來源
 
-1. **[Content-Security-Policy - HTTP Headers 的資安議題 (2)](https://devco.re/blog/2014/04/08/security-issues-of-http-headers-2-content-security-policy/)**
-2. **[XSS 防禦 - CSP script-src 設定](https://blog.darkthread.net/blog/csp-script-src/)**
+1. [Content-Security-Policy - HTTP Headers 的資安議題 (2)](https://devco.re/blog/2014/04/08/security-issues-of-http-headers-2-content-security-policy/)
+2. [XSS 防禦 - CSP script-src 設定](https://blog.darkthread.net/blog/csp-script-src/)
 3. [Content Security Policy (CSP)Quick Reference Guide](https://content-security-policy.com/)
 4. [CSP script-src unsafe-inline](https://rainmakerho.github.io/2021/06/16/CSP-script-src-unsafe-inline/)
 5. [What’s the purpose of the HTML “nonce” attribute for script and style elements?](https://blog.p2hp.com/archives/10701)
 6. [CSP source values](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/Sources)
-7. https://github.com/bgres/xss-demo
+7. [https://github.com/bgres/xss-demo](https://github.com/bgres/xss-demo)
