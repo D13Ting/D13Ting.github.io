@@ -319,4 +319,4 @@ Answer: 481616481616
 
 這個lab算是蠻簡單的，主要是熟悉工具而已，之後有空再來挑戰它的level 2
 
-[TryHackMe | Crack The Hash Level 2](https://tryhackme.com/room/crackthehashlevel2)
+[https://tryhackme.com/room/crackthehashlevel2](https://tryhackme.com/room/crackthehashlevel2)
