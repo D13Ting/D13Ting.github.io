@@ -4,9 +4,9 @@ title:  "Offsec - Filmsy"
 description: 
 date:   2024-03-12 14:59:00 +0800
 # last_modified_at:
-categories: [CTF, tryhackme]
+categories: [CTF, Offsec]
 author: d13
-tags: [ctf, web exploitation, tryhackme]
+tags: [ctf, web exploitation, offsec]
 ---
 
 終於開始練習OSCP的題目的，但真的好難喔。最簡單的題目就直接看writeup了。先抓一下解題的方向跟感覺之後再盡量自己作答。shell裡面的內容我有標記是我輸入的還是系統顯示的，方便閱讀。

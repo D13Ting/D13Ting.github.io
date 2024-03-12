@@ -4,7 +4,7 @@ title:  "picoCTF - Some Assembly Required 1"
 description: 
 date:   2023-12-22 11:10:00 +0800
 # last_modified_at:
-categories: [CTF, picoCTF-Web Exploitation]
+categories: [CTF, picoCTF]
 author: d13
 tags: [ctf, web exploitation, picoctf]
 ---

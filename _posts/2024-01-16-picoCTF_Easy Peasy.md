@@ -4,7 +4,7 @@ title:  "picoCTF - Easy Peasy"
 description: 
 date:   2024-01-16 16:11:00 +0800
 # last_modified_at:
-categories: [CTF, picoCTF-Cryptography]
+categories: [CTF, picoCTF]
 author: d13
 tags: [ctf, cryptography, picoctf]
 ---

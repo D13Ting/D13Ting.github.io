@@ -4,7 +4,7 @@ title:  "picoCTF - The Numbers"
 description: 
 date:   2023-12-20 15:58:00 +0800
 # last_modified_at:
-categories: [CTF, picoCTF-Cryptography]
+categories: [CTF, picoCTF]
 author: d13
 tags: [ctf, cryptography, picoctf]
 ---

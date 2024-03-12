@@ -4,7 +4,7 @@ title:  "picoCTF - ARMssembly 0"
 description: 
 date:   2024-01-18 19:11:00 +0800
 # last_modified_at:
-categories: [CTF, picoCTF-Reverse Engineering]
+categories: [CTF, picoCTF]
 author: d13
 tags: [ctf, reverse engineering, picoctf]
 ---

@@ -4,7 +4,7 @@ title:  "picoCTF - where are the robots"
 description: 
 date:   2023-12-28 18:10:00 +0800
 # last_modified_at:
-categories: [CTF, picoCTF-Web Exploitation]
+categories: [CTF, picoCTF]
 author: d13
 tags: [ctf, web exploitation, picoctf]
 ---
