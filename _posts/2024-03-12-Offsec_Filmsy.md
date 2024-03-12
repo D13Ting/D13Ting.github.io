@@ -230,18 +230,16 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 因為第二支run.sh無法編輯，所以朝apt去下手，這邊補一下apt的知識：
 
-<aside>
-💡 `apt-get update` 命令會檢查哪些路徑以更新軟體列表，您可以查看 APT 的配置文件和目錄。APT 在執行 `apt-get update` 時會檢查以下路徑：
-
-1. 軟件源列表文件：
-    - `/etc/apt/sources.list`：這是 APT 主要使用的軟體源列表文件。它包含了系統配置的軟體源。
-    - `/etc/apt/sources.list.d/`：該目錄下的文件是附加的軟體源列表文件，這些文件將與 `sources.list` 中的源合併。每個文件代表一個軟體源。
-2. APT 配置文件目錄：
-    - `/etc/apt/apt.conf.d/`：該目錄包含了一系列的 APT 配置文件，這些文件允許您對 APT 的行為進行定制。這些配置文件中的指令會影響到 `apt-get update` 命令的行為。
-
-`/etc/apt/apt.conf.d` 是一個目錄，通常用於存放針對 APT (Advanced Package Tool) 的配置文件。在這個目錄中，你可以放置以數字開頭的文件，這些數字表示配置文件的優先級，數字越小，優先級越高。例如，`00rooted` 這樣的文件名意味著它會在其他以數字開頭的文件之前被處理。
-
-</aside>
+> 💡`apt-get update` 命令會檢查哪些路徑以更新軟體列表，您可以查看 APT 的配置文件和目錄。APT 在執行 `apt-get update` 時會檢查以下路徑：
+> 
+> 1. 軟體源列表文件：
+>     - `/etc/apt/sources.list`：這是 APT 主要使用的軟體源列表文件。它包含了系統配置的軟體源。
+>     - `/etc/apt/sources.list.d/`：該目錄下的文件是附加的軟體源列表文件，這些文件將與 `sources.list` 中的源合併。每個文件代表一個軟體源。
+> 2. APT 配置文件目錄：
+>     - `/etc/apt/apt.conf.d/`：該目錄包含了一系列的 APT 配置文件，這些文件允許您對 APT 的行為進行定制。這些配置文件中的指令會影響到 `apt-get update` 命令的行為。
+> 
+> `/etc/apt/apt.conf.d` 是一個目錄，通常用於存放針對 APT (Advanced Package Tool) 的配置文件。在這個目錄中，你可以放置以數字開頭的文件，這些數字表示配置文件的優先級，數字越小，優先級越高。例如，`00rooted` 這樣的文件名意味著它會在其他以數字開頭的文件之前被處理。
+> 
 
 將bash加上SetUID權限，SetUID權限會使得該文件以所有者的身分執行而非現在的呼叫者，所以可以使一般使用者以管理員的身分執行bash：
 
